@@ -1,22 +1,22 @@
 # **Flexible PCB Defect Detection using YOLOv5 + FlexSim Augmentation**
 ### *AI-Based Defect Detection Tailored for Flexible Electronics*
 
-## 📌 **Project Overview**
+## **Project Overview**
 Flexible Printed Circuit Boards (FPCBs) are critical components in flexible electronics. This project develops a YOLOv5-based defect detection system adapted for flexible PCBs using a custom FlexSim augmentation pipeline.
 
-## 🎯 Key Contributions
+## Key Contributions
 - FlexSim augmentation simulating bending, warping, lighting artifacts.
 - Flexible-PCB dataset generation.
 - YOLOv5 model training on FlexPCB dataset.
 - End-to-end ready pipeline.
 
-## 🧠 Why Flexible PCB Detection is Hard
+## Why Flexible PCB Detection is Hard
 - Geometric deformation due to bending.
 - Shadowing and lighting changes.
 - Wrinkles/creases unique to FPCBs.
 - Parallax distortion while imaging.
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 Flexible-PCB-Defect-Detection/
 ├── README.md
@@ -33,7 +33,7 @@ Flexible-PCB-Defect-Detection/
 └── results/
 ```
 
-## 🚀 How to Run
+## How to Run
 ### 1. Install
 ```
 pip install -r requirements.txt
@@ -54,7 +54,7 @@ python train.py
 python infer.py image.jpg
 ```
 
-## 🧪 Defect Classes
+## Defect Classes
 - Missing hole  
 - Mousebite  
 - Open circuit  
@@ -62,6 +62,6 @@ python infer.py image.jpg
 - Spur  
 - Spurious copper  
 
-## 🏁 Conclusion
+## Conclusion
 This project provides a domain-adapted PCB defect detector designed for flexible electronics using synthetic augmentation to simulate bending and lighting variations.
 
