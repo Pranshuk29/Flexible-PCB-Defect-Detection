@@ -1,0 +1,19 @@
+Flexible-PCB-Defect-Detection/
+│
+├── README.md
+├── requirements.txt
+├── flexsim_augmentation.py
+├── prepare_dataset.py
+├── train.py
+├── infer.py
+│
+├── data/
+│   ├── deepPCB/              # original dataset
+│   ├── flexPCB/              # augmented dataset (auto-generated)
+│   └── data.yaml
+│
+├── yolov5/                   # YOLOv5 cloned folder
+│
+└── results/
+    ├── before_flex/          # baseline YOLO results
+    └── after_flex/           # improved results
