@@ -1,0 +1,5 @@
+train: data/flexPCB/images
+val: data/flexPCB/images
+
+nc: 6
+names: ["missing_hole", "mouse_bite", "open_circuit", "short", "spur", "spurious_copper"]
